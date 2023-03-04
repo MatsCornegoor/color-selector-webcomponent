@@ -4,9 +4,19 @@ This is a simple customizable color selector component build with stencil.
 
 ## Installation
 
+### Script tag
+The easiest way to add the selector to your website is by adding a CDN to your header.
+
 ```
-npm i color-selector-webcomponent
+    <script type="module" src="https://unpkg.com/color-selector-webcomponent/dist/colorselector/colorselector.esm.js"><script>
+    <script nomodule src="https://unpkg.com/color-selector-webcomponent/dist/colorselector/colorselector.js"></script>
 ```
+
+### Node Modules
+- Run `npm install color-selector-webcomponent --save`
+- Put a script tag similar to this `<script src='node_modules/color-selector-webcomponent/dist/colorselector/colorselector.esm.js></script>` in the head of your index.html
+- Then you can use the element anywhere in your template
+
 
 ## Usage
 
