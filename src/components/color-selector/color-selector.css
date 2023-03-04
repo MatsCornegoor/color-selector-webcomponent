@@ -1,0 +1,49 @@
+:host {
+  display: inline-block;
+
+  --selector-background: rgb(242, 241, 241);
+  --selector-border: 1px solid rgb(200, 200, 200);
+  --selector-border-radius: 5px;
+  --selector-width: 96px;
+  --selector-padding: 2px;
+
+  --color-size: 20px;
+  --color-border: 0px;
+}
+
+.colorSelector {
+  cursor: pointer;
+  width: var(--color-size);
+  height: var(--color-size);
+  border-radius: 50%;
+  border: var(--color-border);
+}
+
+.colors {
+  display: none;
+
+  width: var(--selector-width);
+  position: absolute;
+  background-color: var(--selector-background);
+  border: var(--selector-border);
+  border-radius: var(--selector-border-radius);
+  padding-bottom: var(--selector-padding);
+  margin-left: var(--color-size);
+}
+
+.colorsOpen {
+  display: block;
+}
+
+.colors .color {
+  float: left;
+  cursor: pointer;
+  width: var(--color-size);
+  height: var(--color-size);
+  border-radius: 50%;
+  border: var(--color-border);
+  margin-left: var(--selector-padding);
+  margin-right: var(--selector-padding);
+  margin-top: var(--selector-padding);
+}
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+
+    <script type="module" src="/build/color-selector-webcomponent.esm.js"></script>
+    <script nomodule src="/build/color-selector-webcomponent.js"></script>
+  </head>
+  <body>
+    <!-- <my-component first="Stencil" last="'Don't call me a framework' JS"></my-component> -->
+
+    <color-selector colors="#D6A3FB,#ABF62D,#2568FB,#6E6E6E" value="#D6A3FB"></color-selector>
+    <color-selector colors="#F4DB7D,#1A2238,#FF6A3D,#9DAAF2" value="#1A2238"></color-selector>
+
+    <script>
+      let colorSelectors = document.querySelectorAll("color-selector");
+      for(let i = 0; i < colorSelectors.length; i++){
+        colorSelectors[i].addEventListener('colorChange', event => { console.log(event.detail) });
+      }
+    </script>
+
+  </body>
+</html>
