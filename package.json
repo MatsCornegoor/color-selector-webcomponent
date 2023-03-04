@@ -1,7 +1,7 @@
 {
   "name": "color-selector-webcomponent",
   "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "description": "Simple color selector as Web Component",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
   "es2015": "dist/esm/index.mjs",
@@ -9,10 +9,10 @@
   "types": "dist/types/index.d.ts",
   "collection": "dist/collection/collection-manifest.json",
   "collection:main": "dist/collection/index.js",
-  "unpkg": "dist/color-selector-webcomponent/color-selector-webcomponent.esm.js",
+  "unpkg": "dist/color-selector-component/color-selector-webcomponent.esm.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ionic-team/stencil-component-starter.git"
+    "url": "https://github.com/MatsCornegoor/color-selector-webcomponent.git"
   },
   "files": [
     "dist/",
@@ -35,5 +35,6 @@
     "jest-cli": "^27.5.1",
     "puppeteer": "^19.5.2"
   },
+  "author": "Mats Cornegoor",
   "license": "MIT"
 }
