@@ -1,12 +1,10 @@
 ## Color Selector Web Component
-
 This is a simple customizable color selector component build with stencil.
 
 ## Installation
 
 ### Script tag
-The easiest way to add the selector to your website is by adding a CDN to your header.
-
+The easiest way to add the selector to your website is by adding a CDN to your header. 
 ```
     <script type="module" src="https://unpkg.com/color-selector-webcomponent/dist/colorselector/colorselector.esm.js"><script>
     <script nomodule src="https://unpkg.com/color-selector-webcomponent/dist/colorselector/colorselector.js"></script>
