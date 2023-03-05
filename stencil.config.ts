@@ -19,4 +19,7 @@ export const config: Config = {
     },
   ],
   buildEs5: 'prod',
+  extras: {
+    experimentalImportInjection: true,
+  }
 };
